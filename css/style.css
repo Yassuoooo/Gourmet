@@ -1,0 +1,309 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+.col-half {
+    width: 50%;
+}
+
+.float-left {
+    float: left;
+}
+
+
+/* Header */
+
+#wrapper #header {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: fixed;
+    width: 100%;
+    height: 54.5px;
+    z-index: 1;
+}
+
+#header .navbar {
+    box-sizing: border-box;
+    background-color: #fff;
+    font-size: 15px;
+    height: 54.5px;
+    letter-spacing: 4px;
+    padding: 8px 16px;
+    width: 100%;
+    line-height: 22.5px;
+}
+
+.navbar .header-text {
+    height: 38.5px;
+    line-height: 22.5px;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.navbar .header-text:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+.navbar .header-bar {
+    height: 38.5px;
+    float: right;
+    line-height: 22.5px;
+    box-sizing: border-box;
+}
+
+.header-bar .header-item {
+    display: inline-block;
+    height: 38.5px;
+    line-height: 22.5px;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.header-bar .header-item:hover {
+    color: #000;
+    background-color: #ccc;
+}
+
+/* Slider */
+
+#wrapper #slider {
+    position: relative;
+    margin-top: 54.5px;
+    padding-top: 50%;
+    background: url(/learning/cssGourmet/img/hamburger.jpg) top center / cover no-repeat;
+}
+
+#slider .slider-text {
+    padding: 12px 24px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.slider-text .slider-slogan {
+    margin: 10px 0;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    opacity: 0.6;
+}
+
+#wrapper #content {
+    width: 1100px;
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content .about-section {
+    padding: 64px 0;
+}
+
+.about-image .about-img {
+    width: 100%;
+    width: 501.99px;
+    height: 627.48px;
+    display: block;
+    opacity: 0.75;
+}
+
+.about-section .about-image {
+    width: 550px;
+}
+
+.about-section .about-info {
+    text-align: center;
+}
+
+.about-info .about-title {
+    font-size: 36px;
+    margin: 10px 0;
+    font-weight: 400;
+    letter-spacing: 5px;
+    padding-bottom: 30px;
+}
+
+.about-info .about-subtitle {
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.about-info .about-text1 {
+    font-size: 18px;
+    margin: 18px 0;
+}
+
+.about-info .about-text2 {
+    font-size: 18px;
+    margin: 18px 0;
+    color: #757575;
+}
+
+/* Border */
+
+#content .border1 {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+/* Menu */
+
+#content .menu-section {
+    padding: 64px 0;
+}
+
+.menu-section .menu-title {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin-top: 10px;
+    margin-bottom: 26.8px;
+}
+
+.menu-section .menu-dish {
+    font-size: 20px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin: 10px 0;
+}
+
+.menu-section .dish-info {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    color: #757575;
+}
+
+.menu-image .menu-img {
+    width: 100%;
+    width: 501.99px;
+    height: 627.48px;
+    display: block;
+    opacity: 0.75;
+}
+
+/* Border */
+
+#content .border2 {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+}
+
+/* Contact */
+
+#content .contact-section {
+    padding: 64px 16px;
+
+}
+
+.contact-section .contact-title {
+    font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin-top: 10px;
+    margin-bottom: 26.8px;
+}
+
+.contact-section .contact-text {
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.contact-section .contact-address {
+    font-size: 18px;
+    color: rgb(96, 125, 139);
+    margin: 18px 0;
+}
+
+.contact-section .contact-info {
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.contact-section .contact-form {
+    height: 353.7px;
+    color: #000;
+}
+
+.contact-section .contact-form p {
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+.contact-form .form-name {
+    font-size: 15px;
+    padding: 16px 8px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact-form .form-people {
+    font-size: 15px;
+    padding: 16px 8px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact-form .form-time {
+    font-size: 15px;
+    padding: 16px 8px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact-form .form-message {
+    font-size: 15px;
+    padding: 16px 8px;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact-form .form-button {
+    height: 38.5px;
+    margin: 16px 0;
+    padding: 8px 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.contact-form .form-button:hover {
+    background-color: #ccc;
+}
+
+/* Footer */
+
+#wrapper .footer-section {
+    color: #000;
+    background-color: #f1f1f1;
+    padding: 32px 0;
+    text-align: center;
+}
+
+.footer-section .footer {
+    color: inherit;
+    font-size: 15px;
+    margin: 15px 0;
+}
